@@ -1,0 +1,66 @@
+2024-11-07 21:52:45,515 - Modified file detected: C:\Users\Public\Downloads\test\test_1\test_1.txt
+2024-11-07 21:52:45,518 - Created file detected: C:\Users\Public\Downloads\test\test_1\test_1.txt.enc
+2024-11-07 21:52:45,518 - Suspicious file activity detected: C:\Users\Public\Downloads\test\test_1\test_1.txt.enc
+2024-11-07 21:52:45,519 - Modified file detected: C:\Users\Public\Downloads\test\test_1\test_1.txt.enc
+2024-11-07 21:52:45,520 - Suspicious file activity detected: C:\Users\Public\Downloads\test\test_1\test_1.txt.enc
+2024-11-07 21:52:45,520 - Deleted file detected: C:\Users\Public\Downloads\test\test_1\test_1.txt
+2024-11-07 21:52:45,821 - Modified file detected: C:\Users\Public\Downloads\test\test_2\test_2.txt
+2024-11-07 21:52:45,821 - Created file detected: C:\Users\Public\Downloads\test\test_2\test_2.txt.enc
+2024-11-07 21:52:45,823 - Suspicious file activity detected: C:\Users\Public\Downloads\test\test_2\test_2.txt.enc
+2024-11-07 21:52:45,825 - Modified file detected: C:\Users\Public\Downloads\test\test_2\test_2.txt.enc
+2024-11-07 21:52:45,825 - Suspicious file activity detected: C:\Users\Public\Downloads\test\test_2\test_2.txt.enc
+2024-11-07 21:52:45,827 - Deleted file detected: C:\Users\Public\Downloads\test\test_2\test_2.txt
+2024-11-07 21:56:31,650 - Created file detected: C:\Users\Public\Downloads\test\test_1\test_1.txt
+2024-11-07 21:56:31,652 - Modified file detected: C:\Users\Public\Downloads\test\test_1\test_1.txt
+2024-11-07 21:56:31,652 - Modified file detected: C:\Users\Public\Downloads\test\test_1\test_1.txt
+2024-11-07 21:56:31,652 - Deleted file detected: C:\Users\Public\Downloads\test\test_1\test_1.txt.enc
+2024-11-07 21:56:31,662 - Created file detected: C:\Users\Public\Downloads\test\test_2\test_2.txt
+2024-11-07 21:56:31,662 - Modified file detected: C:\Users\Public\Downloads\test\test_2\test_2.txt
+2024-11-07 21:56:31,664 - Deleted file detected: C:\Users\Public\Downloads\test\test_2\test_2.txt.enc
+2024-11-07 22:01:59,138 - Created file detected: C:\Users\Public\Downloads\test\test_1\test_1.txt.enc
+2024-11-07 22:01:59,238 - Suspicious file activity detected: C:\Users\Public\Downloads\test\test_1\test_1.txt.enc
+2024-11-07 22:01:59,239 - Searching for suspicious process: python
+2024-11-07 22:02:00,893 - Modified file detected: C:\Users\Public\Downloads\test\test_1\test_1.txt.enc
+2024-11-07 22:02:00,895 - Suspicious file activity detected: C:\Users\Public\Downloads\test\test_1\test_1.txt.enc
+2024-11-07 22:02:00,895 - Searching for suspicious process: python
+2024-11-07 22:02:01,998 - Deleted file detected: C:\Users\Public\Downloads\test\test_1\test_1.txt
+2024-11-07 22:02:01,998 - Created file detected: C:\Users\Public\Downloads\test\test_2\test_2.txt.enc
+2024-11-07 22:02:01,998 - Suspicious file activity detected: C:\Users\Public\Downloads\test\test_2\test_2.txt.enc
+2024-11-07 22:02:01,998 - Searching for suspicious process: python
+2024-11-07 22:02:03,073 - Modified file detected: C:\Users\Public\Downloads\test\test_2\test_2.txt.enc
+2024-11-07 22:02:03,073 - Suspicious file activity detected: C:\Users\Public\Downloads\test\test_2\test_2.txt.enc
+2024-11-07 22:02:03,074 - Searching for suspicious process: python
+2024-11-07 22:02:04,315 - Deleted file detected: C:\Users\Public\Downloads\test\test_2\test_2.txt
+2024-11-07 22:03:20,282 - Created file detected: C:\Users\Public\Downloads\test\test_1\test_1.txt
+2024-11-07 22:03:20,283 - Modified file detected: C:\Users\Public\Downloads\test\test_1\test_1.txt
+2024-11-07 22:03:20,283 - Deleted file detected: C:\Users\Public\Downloads\test\test_1\test_1.txt.enc
+2024-11-07 22:03:20,297 - Created file detected: C:\Users\Public\Downloads\test\test_2\test_2.txt
+2024-11-07 22:03:20,298 - Modified file detected: C:\Users\Public\Downloads\test\test_2\test_2.txt
+2024-11-07 22:03:20,299 - Deleted file detected: C:\Users\Public\Downloads\test\test_2\test_2.txt.enc
+2024-11-07 22:03:43,300 - Created file detected: C:\Users\Public\Downloads\test\test_1\test_1.txt.enc
+2024-11-07 22:03:43,300 - Suspicious file activity detected: C:\Users\Public\Downloads\test\test_1\test_1.txt.enc
+2024-11-07 22:03:43,301 - Searching for suspicious process: python
+2024-11-07 22:03:45,056 - Modified file detected: C:\Users\Public\Downloads\test\test_1\test_1.txt.enc
+2024-11-07 22:03:45,057 - Suspicious file activity detected: C:\Users\Public\Downloads\test\test_1\test_1.txt.enc
+2024-11-07 22:03:45,057 - Searching for suspicious process: python
+2024-11-07 22:03:46,419 - Deleted file detected: C:\Users\Public\Downloads\test\test_1\test_1.txt
+2024-11-07 22:03:46,419 - Created file detected: C:\Users\Public\Downloads\test\test_2\test_2.txt.enc
+2024-11-07 22:03:46,419 - Suspicious file activity detected: C:\Users\Public\Downloads\test\test_2\test_2.txt.enc
+2024-11-07 22:03:46,420 - Searching for suspicious process: python
+2024-11-07 22:03:47,649 - Modified file detected: C:\Users\Public\Downloads\test\test_2\test_2.txt.enc
+2024-11-07 22:03:47,650 - Suspicious file activity detected: C:\Users\Public\Downloads\test\test_2\test_2.txt.enc
+2024-11-07 22:03:47,651 - Searching for suspicious process: python
+2024-11-07 22:03:48,819 - Deleted file detected: C:\Users\Public\Downloads\test\test_2\test_2.txt
+2024-11-10 06:35:19,877 - Modified file detected: C:\Users\Public\Downloads\test\test_1\test_1.txt.enc
+2024-11-10 06:35:19,980 - Suspicious file activity detected: C:\Users\Public\Downloads\test\test_1\test_1.txt.enc
+2024-11-10 06:56:11,468 - Created file detected: C:\Users\Public\Downloads\test\test_1\test_1.txt.enc
+2024-11-10 06:56:11,468 - Suspicious file activity detected: C:\Users\Public\Downloads\test\test_1\test_1.txt.enc
+2024-11-10 06:57:38,889 - Modified file detected: C:\Users\Public\Downloads\test\test_1\test_1.txt.enc
+2024-11-10 06:57:38,889 - Suspicious file activity detected: C:\Users\Public\Downloads\test\test_1\test_1.txt.enc
+2024-11-10 06:58:49,378 - Deleted file detected: C:\Users\Public\Downloads\test\test_1\test_1.txt
+2024-11-10 06:58:49,378 - Created file detected: C:\Users\Public\Downloads\test\test_2\test_2.txt.enc
+2024-11-10 06:58:49,378 - Suspicious file activity detected: C:\Users\Public\Downloads\test\test_2\test_2.txt.enc
+2024-11-10 07:00:27,817 - Modified file detected: C:\Users\Public\Downloads\test\test_2\test_2.txt.enc
+2024-11-10 07:00:27,817 - Suspicious file activity detected: C:\Users\Public\Downloads\test\test_2\test_2.txt.enc
+2024-11-10 07:01:41,083 - Deleted file detected: C:\Users\Public\Downloads\test\test_2\test_2.txt
+2024-11-10 07:01:41,083 - Created file detected: C:\Users\Public\Downloads\test\test_1\test_1.txt
