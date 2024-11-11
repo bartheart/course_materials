@@ -47,6 +47,8 @@ Open the Excel Macro File
 _________________________________________________________________________________________________________________
 
 - Open the .xlsm file provided in the archive. This file mimics a phishing attachment in a real-world scenario.
+Office_Assignment_Fall_2024.xlsm
+
 - Ensure that macros are enabled when prompted. This will allow the VBA macro to run and execute the ransomware simulation.
 
 
