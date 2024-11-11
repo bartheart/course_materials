@@ -54,7 +54,7 @@ class MonitorHandler(FileSystemEventHandler):
             # Here you could add additional actions, like sending alerts
             print(f"Alert: Suspicious file activity detected on {file_path}")
 
-    # Dunction to check excessive file acess
+    # Function to check excessive file acess
     def check_excessive_access(self, directory):
         """Moinitor file access rate for each prcoess"""
 

@@ -65,3 +65,5 @@
 2024-11-10 07:01:41,083 - Deleted file detected: C:\Users\Public\Downloads\test\test_2\test_2.txt
 2024-11-10 07:01:41,083 - Created file detected: C:\Users\Public\Downloads\test\test_1\test_1.txt
 2024-11-10 07:03:22,804 - Modified file detected: C:\Users\Public\Downloads\test\test_1\test_1.txt
+2024-11-10 07:04:49,113 - Deleted file detected: C:\Users\Public\Downloads\test\test_1\test_1.txt.enc
+2024-11-10 07:04:49,113 - Created file detected: C:\Users\Public\Downloads\test\test_2\test_2.txt
